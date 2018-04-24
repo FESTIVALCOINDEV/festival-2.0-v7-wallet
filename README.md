@@ -3,7 +3,7 @@
 Creating simplewallet addresses
 
 
-$ ./simplewallet --config-file configs/dashcoin.conf --generate-new-wallet MY.wallet --password PASSWORD
+$ ./simplewallet --config-file configs/festival.conf --generate-new-wallet MY.wallet --password PASSWORD
 
 config path exist
 forknote wallet v1.0.9.1.662()
@@ -21,9 +21,8 @@ your wallet again. Your wallet key is NOT under risk anyway.
 
 
 Starting Mining
-To see your premined coins, you must start mining:
 
-$ ./miner --daemon-address 127.0.0.1:5371  --address D9CTMkRfsJ594cuvX2pGXNWMFK5ARwxPN1x7bFC5wY5XTZxf12LjWUK5QkMVeSkD6gT532FepdaohRYkt99e9gdF6hyrUgx
+$ ./miner --daemon-address 127.0.0.1:5371  --address D9CTMkRfsJ594cuvX2pGXNWMFK5ARwxPN1x7bFC5wY5XTZxf12LjWUK5QkMVeSkD6gT532FepdaohRYkt99e9gdF6hyrUgx (put your adress)
 
 Notice: The first few blocks may take a few hours to be found
 
