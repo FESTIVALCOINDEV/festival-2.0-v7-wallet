@@ -28,10 +28,8 @@ $ ./miner --daemon-address 127.0.0.1:3949  --address [WALLET_ADDRESS]
 
 Examples :
 $ ./miner --daemon-address 127.0.0.1:3949  --address D6WLtrV1SBWV8HWQzQv8uuYuGy3uwZ8ah5iT5HovSqhTKMauquoTsKP8RBJzVqVesX87poYWQgkGWB4
+
 Notice: The first few blocks may take a few hours to be found
-
-http://forknote.net/documentation/
-
 
 Connecting the daemon to a blockchain
 To connect to the daemon to existing blockchain, just start forknoted with the corresponding configuration file.
@@ -46,6 +44,8 @@ $ ./simplewallet --config-file configs/festival.conf
 
 Mining with miner
 miner needs a running and synced daemon.
+
+http://forknote.net/documentation/
 
 
 
