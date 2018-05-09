@@ -22,10 +22,32 @@ your wallet again. Your wallet key is NOT under risk anyway.
 
 Starting Mining
 
-$ ./miner --daemon-address 127.0.0.1:3949  --address D9CTMkRfsJ594cuvX2pGXNWMFK5ARwxPN1x7bFC5wY5XTZxf12LjWUK5QkMVeSkD6gT532FepdaohRYkt99e9gdF6hyrUgx (put your adress)
+To start mining:
 
+$ ./miner --daemon-address 127.0.0.1:3949  --address [WALLET_ADDRESS]
+
+Examples :
+$ ./miner --daemon-address 127.0.0.1:3949  --address D6WLtrV1SBWV8HWQzQv8uuYuGy3uwZ8ah5iT5HovSqhTKMauquoTsKP8RBJzVqVesX87poYWQgkGWB4
 Notice: The first few blocks may take a few hours to be found
 
 http://forknote.net/documentation/
+
+
+Connecting the daemon to a blockchain
+To connect to the daemon to existing blockchain, just start forknoted with the corresponding configuration file.
+
+$ ./forknoted --config-file configs/festival.conf
+
+
+
+To start simplewallet:
+
+$ ./simplewallet --config-file configs/festival.conf
+
+Mining with miner
+miner needs a running and synced daemon.
+
+
+
 
 
