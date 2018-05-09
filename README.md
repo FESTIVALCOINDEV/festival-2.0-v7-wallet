@@ -22,7 +22,7 @@ your wallet again. Your wallet key is NOT under risk anyway.
 
 Starting Mining
 
-$ ./miner --daemon-address 127.0.0.1:5371  --address D9CTMkRfsJ594cuvX2pGXNWMFK5ARwxPN1x7bFC5wY5XTZxf12LjWUK5QkMVeSkD6gT532FepdaohRYkt99e9gdF6hyrUgx (put your adress)
+$ ./miner --daemon-address 127.0.0.1:3949  --address D9CTMkRfsJ594cuvX2pGXNWMFK5ARwxPN1x7bFC5wY5XTZxf12LjWUK5QkMVeSkD6gT532FepdaohRYkt99e9gdF6hyrUgx (put your adress)
 
 Notice: The first few blocks may take a few hours to be found
 
