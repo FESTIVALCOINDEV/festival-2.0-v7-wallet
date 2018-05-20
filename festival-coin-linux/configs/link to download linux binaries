@@ -1,4 +1,0 @@
-http://forknote.net/download/
-
-mkdir configs
-include festival.conf in configs file
