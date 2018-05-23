@@ -9,9 +9,9 @@ start_mining [WALLET_ADDRESS]
 
 
 Connecting the daemon to a blockchain
-To connect to the daemon to existing blockchain, just start forknoted with the corresponding configuration file.
+To connect to the daemon to existing blockchain, just start festivald.
 
-$ ./forknoted or click on festivald.exe
+$ ./festivald (terminal) or click on festivald.exe
 
 
 
