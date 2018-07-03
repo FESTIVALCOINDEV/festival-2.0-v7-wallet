@@ -1,5 +1,5 @@
 
-#Festival CLI Wallet
+# Festival CLI Wallet
 
 
 Starting Mining
